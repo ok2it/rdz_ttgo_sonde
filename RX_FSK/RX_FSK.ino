@@ -19,7 +19,7 @@
 #include "geteph.h"
 #include "rs92gps.h"
 
-if (oled_driver=0) {
+if (oled_driver == 0) {
   // UNCOMMENT one of the constructor lines below
   U8X8_SSD1306_128X64_NONAME_SW_I2C *u8x8 = NULL; // initialize later after reading config file
   //U8X8_SSD1306_128X64_NONAME_SW_I2C u8x8(/* clock=*/ OLED_SCL, /* data=*/ OLED_SDA, /* reset=*/ OLED_RST); // Unbuffered, basic graphics, software I2C
@@ -1077,7 +1077,7 @@ void setup()
   }
   initTouch();
 
-  if (oled_driver=0) {
+  if (oled_driver == 0) {
     u8x8 = new U8X8_SSD1306_128X64_NONAME_SW_I2C(/* clock=*/ sonde.config.oled_scl, /* data=*/ sonde.config.oled_sda, /* reset=*/ sonde.config.oled_rst); // Unbuffered, basic graphics, software I2C
   } else {
     u8x8 = new U8X8_SH1106_128X64_NONAME_SW_I2C(/* clock=*/ sonde.config.oled_scl, /* data=*/ sonde.config.oled_sda, /* reset=*/ sonde.config.oled_rst); // Unbuffered, basic graphics, software I2C
