@@ -16,8 +16,6 @@ led_pout=9
 #oled_sda=21
 #oled_scl=22
 oled_rst=16
-# OLED driver can be 0=SSD1306 1=SH1106
-oled_driver=0
 #gps_rxd=-1
 gps_txd=-1
 #-------------------------------#
