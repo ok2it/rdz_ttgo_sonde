@@ -1,6 +1,8 @@
 # Prerequisites
 
 ## Arduini IDE
+Posledni Arduino IDE funguje v pohode. Import desky 3.strany take. Pridani desky pres JSON. 
+
 
 Get the latest Arduino IDE software from arduino.cc/en/Main/Software
 
@@ -10,7 +12,7 @@ File -> Preferences  (or Arduino -> Preferences on MacOS)
 
 go to "Additional Board Manager URLs"
 
-Add *https://dl.espressif.com/dl/package_esp32_index.json* and press oK
+Add *hc* and press oK
 
 
 Tool -> Boad -> Boards Manager
