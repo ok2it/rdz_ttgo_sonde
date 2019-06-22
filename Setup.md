@@ -2,7 +2,9 @@
 
 ## Arduini IDE
 Posledni Arduino IDE funguje v pohode. Import desky 3.strany take. Pridani desky pres JSON. 
-
+ Fork na moznost posilani RAW toku nikoliv interne pres msgq do interpretace, ale po UDP na sondy.ddns.net / port
+ ESP32 dokaze pripravit TCP i UDP session ven po WiFi jak Managed,AdHoc nebo client.
+ Problem nastava, pokud chci fungovat nekdy lokalne, nekdy jako krmic, protoze pokud ESP32 vrati timeout sestaveni session, zpomali to cely modul. (Pouzit tlacitko pro zmenu configu???)
 
 Get the latest Arduino IDE software from arduino.cc/en/Main/Software
 
